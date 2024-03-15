@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Battambang&family=Bebas+Neue&family=Honk&family=Koulen&family=Moul&family=Open+Sans:wght@400;600&family=Pathway+Gothic+One&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,600&family=Teko:wght@500&display=swap');
+.yel{
+    background-color: #ffffff;
+}
+.bg-contain{
+    font-family: 'Battambang', system-ui;
+    background-color:#f5f8fa;
+}
+.text-left {
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.acm{
+
+    border: 3px solid #0026ff;
+    
+    width: 100%;
+}
+.img-box{
+    clip-path: polygon(0 1%, 85% 0, 100% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+.title-img{
+    padding: 38px;
+    clip-path: polygon(31% 0, 100% 0, 100% 50%, 90% 100%, 30% 100%, 0 100%, 0 0);
+}
+.e{
+    transform: scale(0.9);
+    transition: 0.2s linear;
+}   
+.e:hover{
+    transform: scale(1);
+    transition: 0.3s linear;
+}
+.ho{
+    transform: scale(1);
+    transition: 0.6s linear ;
+}
+.ho:hover{
+    margin-top: -10px;
+    transition: 0.5s linear ;
+}
+.text{
+    font-family: 'Battambang', system-ui;
+    cursor: pointer;
+    --max-lines:5;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+.slide-st{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: red;
+
+}
+.slide-img{
+    width: 30%;
+}
+@media (max-width: 540.98px) {
+        .text-left {
+            font-size: 15px;
+        }
+        .text-center{
+            font-size: 10px;
+        } 
+  }
+@media (max-width: 889.98px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-box{
+        width: 100%;
+    }
+    .title-img{
+       
+        border-radius: 5px;
+        clip-path: polygon(31% 0, 100% 0, 100% 50%, 100% 100%, 30% 100%, 0 100%, 0 0);
+    }
+  }
+  @media (max-width: 1210.98px) {
+   
+    .align-middle{
+        --max-lines:9;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: var(--max-lines);
+    }
+  }
+

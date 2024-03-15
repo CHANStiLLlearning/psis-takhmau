@@ -1,0 +1,14 @@
+.inter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #E6E6E6;
+}
+.img-inter{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inter h1{
+    letter-spacing: 1px;
+    font-weight: bold;
+}

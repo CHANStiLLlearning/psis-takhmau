@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+.rounded-t-lg{
+    height: 230px;
+}
+.line h1{
+    /* clip-path: polygon(81% 0, 100% 50%, 81% 100%, 0% 100%, 0 46%, 0% 0%); */
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 66% 76%, 0% 75%); */
+    font-family: Bebas Neue;
+
+}
+/* .line-text{
+    background-color: rgb(253, 156, 0);
+} */
+.line-1{
+    /* background-color:#262e54; */
+    clip-path: polygon(100% 0, 100% 0, 98% 100%, 0% 100%, 0 30%, 0% 0%);
+}
+.b{
+    border: 5px solid rgb(255, 247, 173);
+}
+.text-size{
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 2px;
+    color: #ffff;
+    padding: 50px 0px 0 0;
+}
+.text-wrap h3{
+    color: aliceblue;
+}
+.text-wrap span{
+    color: #FFFF66;
+}
+.text-wrap small{
+    font-size: 13px;
+    /* font-family: 'Protest Strike'; */
+    color: #FDFDFD;
+}
+.text-wrap{
+    cursor: pointer;
+    --max-lines:10;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+.img-p{
+    clip-path: polygon(100% 0, 100% 20%, 100% 80%, 83% 100%, 0 100%, 0% 60%, 0 0);
+}
+.m-s{
+    outline: none;
+    border: none;
+    background-color: #1787E0;
+}
+@media (max-width: 1028.98px) {
+
+    .zixe img{
+        height: auto ;
+        margin: auto;
+    }
+    
+  }
+@media (max-width: 897.98px) {
+    .text-wrap{
+    cursor: pointer;
+    --max-lines:8;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+    }
+    .img-p{
+        margin: auto;
+    }
+  }
+@media (max-width: 640.98px) {
+    .img{
+        width: 100%;
+    }
+    .line-1{
+        transition: 0.5s linear;
+        width: 60%;
+    }
+  }
+
+  @media (max-width: 408.98px) {
+    .text-size{
+        transition: 0.5s linear;
+        font-size: 30px;
+    }
+    .line-text{
+        transition: 0.5s linear;
+        font-size: 16px;
+    }
+    .line-1{
+        transition: 0.5s linear;
+        width: 100%;
+    }
+    }
+.bg{
+    background-color: #142544;
+}

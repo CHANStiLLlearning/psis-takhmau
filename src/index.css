@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Battambang&family=Bebas+Neue&family=Honk&family=Koulen&family=Moul&family=Open+Sans:wght@400;600&family=Pathway+Gothic+One&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,600&family=Teko:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Battambang', system-ui;
+  
+}
+
+

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Bebas+Neue&family=Honk&family=Koulen&family=Moul&family=Open+Sans:wght@400;600&family=Pathway+Gothic+One&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,600&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Protest+Strike&display=swap');
+.re{
+    background-color: #13284C;
+    
+}
+.re h1{
+    font-family: 'Honk';
+    
+}
+.reprogram{
+    text-shadow: 1px 4px 2px #8b8787;
+    letter-spacing: 2px;
+    font-family: 'Protest Strike', sans-serif;
+    /* background-color: rgb(57, 48, 48); */
+}
+.box-pro{
+    box-shadow: 5px 2px 5px #8b8787;
+    /* background-color: aqua; */
+    border: 20px solid red;
+}
+.box-right{
+    padding: 10px;
+    background-color: #fffafa;
+}
+.box-right p{
+    font-family: Kdam+Thmor+Pro;
+}
+/* .box-left{
+    background-color: green;
+} */
+#p{
+    padding-top: 15px;
+}
+.blue-b{
+  border: 20px solid #0683F5;
+}
+.gold-b{
+    border: 20px solid #FFB800;
+}
+.purple-b{
+    border: 20px solid #FF3EAF;
+}
+.black-b{
+    border: 20px solid #000;
+}

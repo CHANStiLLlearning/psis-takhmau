@@ -1,0 +1,270 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(195, 204, 215);
+  /* padding-top: 15px; */
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  align-items: center;
+  margin-right: 50px;
+  /* background-color: aquamarine; */
+  padding-top: 20px;
+}
+
+.header ul li  {
+  text-decoration: none;
+  color: rgb(46, 52, 71);
+}
+
+.header span img {
+  height: 75px;
+  margin-left: 50px;
+}
+
+.menu {
+  /* height: 75px; */
+  display: flex;
+  /* align-items: center; */
+  border-bottom: 1px solid rgb(195, 204, 215);
+  transition: .5s;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  padding-top: 15px;
+  background-color: #fff;
+  position: relative;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+  /* background-color: red; */
+  margin-left: 25px;
+
+}
+
+.menu ul:last-child {
+  margin-right: 50px;
+
+}
+
+.menu ul:last-child li a svg {
+  width: 20px;
+  height: 20px;
+
+}
+
+.menu ul li  {
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  color: rgb(46, 52, 71);
+  /* background-color: aqua; */
+  padding: 27px 10px;
+}
+
+.menu ul li a svg {
+  width: 12px;
+  height: 12px;
+  font-weight: bold;
+}
+.menu ul:last-child li a {
+background-color: chartreuse;
+padding: 7px 13px;
+color: #fff;
+border-radius: 5px;
+font-size: 12px;
+transition: .5s;
+}
+.menu ul:last-child li:nth-child(1) a {
+  background-color: #5490ea;
+}
+.menu ul:last-child li:nth-child(2) a {
+  background-color: #1cafe0;
+}
+.menu ul:last-child li:nth-child(3) a {
+  background-color: #e01c2f;
+}
+.menu ul:last-child li a:hover{
+  transform: translateY(-5px);
+}
+.bar {
+  display: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.h {
+  height: 21rem !important;
+}
+
+.menu ul li:hover .sub1 {
+  display: block;
+}
+
+.sub1 {
+  width: 300px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
+  margin-top: 225px;
+  margin-left: -5px;
+  border-top: 3px solid rgba(29, 93, 183, 0.587);
+  padding: 20px 30px;
+  display: none;
+  animation: sub1 .3s linear;
+}
+.search{
+  position: absolute;
+  width: 60%;
+  top: 0;
+  right: 0;
+  /* background-color: rgb(194, 10, 10); */
+  justify-content: space-between;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  right: 50px;
+  margin-top: 10px;
+}
+.search input{
+  height: 30px;
+  width: 70%;
+  /* background-color: #e01c2f; */
+  border: none;
+  outline: none;
+  margin-top: 0%;
+  margin-left: 300px;
+}
+@keyframes sub1 {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.sub1 span {
+  display: block;
+  padding: 7px;
+  cursor: pointer;
+  transition: .5s;
+  margin: 7px 0;
+  font-size: 12px;
+  color: #000;
+}
+
+.sub1 span:hover {
+  background-color: rgb(235, 237, 239);
+}
+
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+  .menu ul:last-child {
+  display: none;
+    }
+}
+
+@media (min-width: 991.98px) {
+  .menu {
+    height: 75px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header ul {
+    display: none;
+    
+  }
+
+  .bar {
+    display: block;
+  }
+
+  .menu {
+    height: 0;
+    overflow: hidden;
+    width: 85%;
+    left: 8%;
+    position: absolute;
+    z-index: 999;
+    box-shadow: 0px 0px 10px rgb(218, 220, 224);
+    padding-top: 0; 
+  }
+
+  .menu ul {
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+    gap: 0;
+    padding-left: 0px;
+  }
+
+  .menu ul li {
+    width: 100%;
+  }
+
+  .menu ul li a {
+    justify-content: space-between;
+    padding: 15px 30px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(235, 236, 237);
+    /* background-color: red; */
+  }
+
+  .menu ul li a:hover {
+    background-color: aliceblue;
+  }
+
+  .menu {
+    border: none;
+  }
+
+  .menu ul:last-child {
+    display: none;
+
+  }
+
+  .sub1 {
+width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header span img {
+      width: 230px;
+      margin-left: 5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header span img {
+        margin-left: 5px;
+        width: 222px;
+       /* margin-left: 20px; */
+      }
+      .bar{
+        /* background-color: red; */
+
+        margin-right: 10px;
+      }
+}
